@@ -271,3 +271,645 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bbf3000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.011 seconds
+Refreshing native plugins compatible for Editor in 5.46 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.839 seconds
+Domain Reload Profiling: 2850ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1037ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (625ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (3.6 MB). Loaded Objects now: 4606.
+Memory consumption went from 178.7 MB to 175.1 MB.
+Total: 16.557917 ms (FindLiveObjects: 0.328750 ms CreateObjectMapping: 0.135916 ms MarkObjects: 14.696917 ms  DeleteObjects: 1.394417 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bbf3000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.689 seconds
+Refreshing native plugins compatible for Editor in 7.47 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.277 seconds
+Domain Reload Profiling: 1966ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (441ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1277ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (582ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (343ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4199 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (3.6 MB). Loaded Objects now: 4609.
+Memory consumption went from 188.1 MB to 184.5 MB.
+Total: 8.581958 ms (FindLiveObjects: 0.169750 ms CreateObjectMapping: 0.081000 ms MarkObjects: 7.508708 ms  DeleteObjects: 0.821583 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bbf3000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.826 seconds
+Refreshing native plugins compatible for Editor in 11.52 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.798 seconds
+Domain Reload Profiling: 2626ms
+	BeginReloadAssembly (232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (514ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (8ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1800ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (896ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (510ms)
+			ProcessInitializeOnLoadMethodAttributes (286ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Refreshing native plugins compatible for Editor in 4.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (5.2 MB). Loaded Objects now: 4973.
+Memory consumption went from 209.8 MB to 204.7 MB.
+Total: 14.330291 ms (FindLiveObjects: 0.282958 ms CreateObjectMapping: 0.140542 ms MarkObjects: 11.698209 ms  DeleteObjects: 2.207667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (5.1 MB). Loaded Objects now: 4973.
+Memory consumption went from 139.8 MB to 134.7 MB.
+Total: 13.343709 ms (FindLiveObjects: 0.264041 ms CreateObjectMapping: 0.138958 ms MarkObjects: 11.074958 ms  DeleteObjects: 1.864833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x16bbf3000 may have been prematurely finalized
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 4.33 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.429 seconds
+Domain Reload Profiling: 1853ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (253ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1430ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1018ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (331ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4575 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 110 unused Assets / (5.1 MB). Loaded Objects now: 4976.
+Memory consumption went from 219.1 MB to 213.9 MB.
+Total: 22.679042 ms (FindLiveObjects: 0.281959 ms CreateObjectMapping: 0.168542 ms MarkObjects: 20.034125 ms  DeleteObjects: 2.193000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1911.241099 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/2DRadar.prefab
+  artifactKey: Guid(14d078af261e6e24bb277455ab591594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/2DRadar.prefab using Guid(14d078af261e6e24bb277455ab591594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cbffa8c91c20ebe072bf3e23dc1f31') in 0.034166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/VehicleCamera.prefab
+  artifactKey: Guid(163e58f67a1a63b4e8dd75b31cf60073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/VehicleCamera.prefab using Guid(163e58f67a1a63b4e8dd75b31cf60073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0b88b531cd25499597e8bc091c097b') in 0.343894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 175
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/GameStateManager.prefab
+  artifactKey: Guid(41b627d338dab884fa77888aff588c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/GameStateManager.prefab using Guid(41b627d338dab884fa77888aff588c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9d072bdc9f77a8c9e4117252d83831') in 0.002474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/Menus.prefab
+  artifactKey: Guid(baf1944a4f7c318479eba59d018696cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/Menus.prefab using Guid(baf1944a4f7c318479eba59d018696cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c8927c27155ac1592edb82f7fc381f') in 0.057428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 346
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/EnemyPilot_SpaceFighter.prefab
+  artifactKey: Guid(2e8788f6c9cb96f4b8bab8c85b5a8dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/EnemyPilot_SpaceFighter.prefab using Guid(2e8788f6c9cb96f4b8bab8c85b5a8dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b788ec2554c29e296088b92abb5abedb') in 0.006026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/TargetBoxes.prefab
+  artifactKey: Guid(0ceb1fb21cd2f054ba60aced4592192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/TargetBoxes.prefab using Guid(0ceb1fb21cd2f054ba60aced4592192a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2265a9f754fe43dc5b7d5a9629403174') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000388 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/Player.prefab
+  artifactKey: Guid(fa121e623b5943845b46f6357b72aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/Player.prefab using Guid(fa121e623b5943845b46f6357b72aff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7da2862ff63d808b7e2f55c956ac5') in 0.020442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 145
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/SceneObjects.prefab
+  artifactKey: Guid(5bdcbf790d256914ebf95d877b0d0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Prefabs/SceneObjects.prefab using Guid(5bdcbf790d256914ebf95d877b0d0f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cf1c6a4b05b75a7d24868aa0d93e39') in 0.034267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 371
+========================================================================
+Received Import Request.
+  Time since last request: 40.009510 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ed6dfd1d3fb0a4fe0968ba5fad5a5db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(ed6dfd1d3fb0a4fe0968ba5fad5a5db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcdd0f5163a1e6d53e9879eb353b3533') in 0.001133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.745656 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(c512b8040590c47db8dd2ca612fa33a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(c512b8040590c47db8dd2ca612fa33a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57d0757fbf9cff23a30afe4bfe81139') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.547177 seconds.
+  path: Assets/SpaceCombatKit
+  artifactKey: Guid(6f16e4f7e495a4e75866c28799378781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit using Guid(6f16e4f7e495a4e75866c28799378781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc78e2727990849175f16018e91fc86') in 0.000435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.529922 seconds.
+  path: Assets/SpaceCombatKit/FirstPersonCharacters
+  artifactKey: Guid(9468250f040ff1144bd17a8af83a2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/FirstPersonCharacters using Guid(9468250f040ff1144bd17a8af83a2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c1bf6505470badbd65bc83597947ddc') in 0.000551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.816014 seconds.
+  path: Assets/SpaceCombatKit/FirstPersonCharacters/Scripts
+  artifactKey: Guid(c6d5f5eb2f1892149920c6f0e1dfc3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/FirstPersonCharacters/Scripts using Guid(c6d5f5eb2f1892149920c6f0e1dfc3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b99350d27638b20542e5bb5a0a10ce0') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.186870 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels
+  artifactKey: Guid(680baeac5bdab7141a307663436975af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels using Guid(680baeac5bdab7141a307663436975af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1100ac6c57d5cb66c36db3671f36892') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.051032 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Canopy_Albedo.png
+  artifactKey: Guid(83b936144a595134ba38242ccfda56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Canopy_Albedo.png using Guid(83b936144a595134ba38242ccfda56d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a30a4f1e3cee7dee669c001f8f020b5') in 0.051036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/MetalGrunge_MetallicSmooth.png
+  artifactKey: Guid(1d651acf6fba5e94382fa7d789891198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/MetalGrunge_MetallicSmooth.png using Guid(1d651acf6fba5e94382fa7d789891198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee7c9aadf9d2fa03583d0c3fb7312dc') in 0.009420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor_Albedo.png
+  artifactKey: Guid(85750f046c8028c4db84544f791ca705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor_Albedo.png using Guid(85750f046c8028c4db84544f791ca705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12eef08f8c1021746bf411710fe1f838') in 0.008079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor_Normal.png
+  artifactKey: Guid(aa810fcf49a7644479e182d14f693f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor_Normal.png using Guid(aa810fcf49a7644479e182d14f693f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df9515ca9b062c85a36451cf7fdcc307') in 0.107710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/LoadoutRoom.png
+  artifactKey: Guid(c66aed0e7655e0c4585c9d3c15a25218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/LoadoutRoom.png using Guid(c66aed0e7655e0c4585c9d3c15a25218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a444fff1b30de845c56656c27e1372b') in 0.008143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor.mat
+  artifactKey: Guid(8876547462b506142915e3a2f2c67e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/Floor.mat using Guid(8876547462b506142915e3a2f2c67e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401d1e2cbb3d08058fc660fa06bf1503') in 1.133996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/MetalGrunge.png
+  artifactKey: Guid(3b217e672b3ad5449adb880f7906fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Levels/MetalGrunge.png using Guid(3b217e672b3ad5449adb880f7906fbd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e092e39069aa67c00968818785017d8a') in 0.010366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.326002 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus
+  artifactKey: Guid(71458eae391eab14eaf51a28b62bc4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus using Guid(71458eae391eab14eaf51a28b62bc4ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417832f581239115daf6ceb4d095074f') in 0.000526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084714 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus/Button.png
+  artifactKey: Guid(36995110c1285c845b2eeba17ad99520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus/Button.png using Guid(36995110c1285c845b2eeba17ad99520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2209f7c2b69998772726e2138fe8204') in 0.027348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus/MenuFrame.png
+  artifactKey: Guid(e1d22dfbd6d54104f8c64146051be661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Menus/MenuFrame.png using Guid(e1d22dfbd6d54104f8c64146051be661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d04003262f1179ab3e4c74d719aad96') in 0.009790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.296238 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb
+  artifactKey: Guid(3c92f4c4f8f5d40418ddbf73cfee9fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb using Guid(3c92f4c4f8f5d40418ddbf73cfee9fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23566e4b3dc6d0a0df151fa5174ceaea') in 0.000550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045296 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb.fbx
+  artifactKey: Guid(e3ee605ade7ac0841b23e83ded06fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb.fbx using Guid(e3ee605ade7ac0841b23e83ded06fd42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a312fa9aaeeac5873d2fe6d9d8e556') in 0.933105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Emission.png
+  artifactKey: Guid(841a4d8de673ee345a1791d692dd85e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Emission.png using Guid(841a4d8de673ee345a1791d692dd85e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e318ddbf81192426e192b046d6b1f0eb') in 0.006876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Red.mat
+  artifactKey: Guid(e66a8322ef7c0ef429ee150f5c487cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Red.mat using Guid(e66a8322ef7c0ef429ee150f5c487cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd28bcbf6cf9a3525614e496d68c6841a') in 0.015638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Albedo_Red.png
+  artifactKey: Guid(2b3d074d82a84ed469ab8bdf80612835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_Albedo_Red.png using Guid(2b3d074d82a84ed469ab8bdf80612835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84fafc67a4219ff9dc0b2e925738310e') in 0.008267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_MetallicSmooth.png
+  artifactKey: Guid(59a7a359053872f4799ff41b089c37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/Orb_MetallicSmooth.png using Guid(59a7a359053872f4799ff41b089c37e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b92566ec2cc3ac202dfad168334a86') in 0.008703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/OrbShield.fbx
+  artifactKey: Guid(9ff9dafd27580504ba792b78c0385a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Orb/OrbShield.fbx using Guid(9ff9dafd27580504ba792b78c0385a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aba580b469701d89104eb302c04925') in 0.657451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 2.081583 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Weapons
+  artifactKey: Guid(e894244d87ad3a44492dd9397810e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Weapons using Guid(e894244d87ad3a44492dd9397810e86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedb4ca016ae82efe57fbf1f0bd47d4f') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.047143 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Weapons/AmmoIcon.png
+  artifactKey: Guid(36f0924c648df8145b931a779dcb4dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Weapons/AmmoIcon.png using Guid(36f0924c648df8145b931a779dcb4dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b350cb83318b72cbd85b4a89bb1e12') in 0.011639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.874505 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles
+  artifactKey: Guid(d55f7cf72276ba043b1fc2ece5556db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles using Guid(d55f7cf72276ba043b1fc2ece5556db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16546387bf8176b26e56a1fc88e8501') in 0.000533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.881444 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/UI
+  artifactKey: Guid(534d11ab5a5eb2343b3479e75d039f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/UI using Guid(534d11ab5a5eb2343b3479e75d039f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7e0a65f8d11eba53ae8f883e2f3ac8') in 0.000512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065486 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/UI/ControllerDiagram.png
+  artifactKey: Guid(92b81f5615cfa884dac5e7b28036b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/UI/ControllerDiagram.png using Guid(92b81f5615cfa884dac5e7b28036b1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14501cac23ca8500c4269fca695bbc9') in 0.008520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.676045 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship
+  artifactKey: Guid(500632fa5bc067843833cd44a4278f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship using Guid(500632fa5bc067843833cd44a4278f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4b3d8868555d6a2abc4342f4147eb7') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.137189 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Collider_Engine.fbx
+  artifactKey: Guid(c20c38870e11d0d4a8fab8c2f386bd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Collider_Engine.fbx using Guid(c20c38870e11d0d4a8fab8c2f386bd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9391b0e0a1b0888389676ccca1081a5f') in 0.030146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_CommandCenter.fbx
+  artifactKey: Guid(6ff03ca51de11af4ba22c9d986439fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_CommandCenter.fbx using Guid(6ff03ca51de11af4ba22c9d986439fe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce0c8db054f5db14bd6ea1091805ea23') in 0.017880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Gun.fbx
+  artifactKey: Guid(96eabffed6d7cfe43b942b9220b72a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Gun.fbx using Guid(96eabffed6d7cfe43b942b9220b72a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215f4b2b1bd93c74a39b4cd4bc0541a9') in 0.019758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Hull.fbx
+  artifactKey: Guid(42f6c703e64c1bf4798a0843be7bf483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Hull.fbx using Guid(42f6c703e64c1bf4798a0843be7bf483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954ccbb97dc0b99f3494049e35f6b580') in 0.020220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_ShieldGenerator.fbx
+  artifactKey: Guid(9935c55903f714e4ca9aa486f98cd068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_ShieldGenerator.fbx using Guid(9935c55903f714e4ca9aa486f98cd068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f9b0a50e98a60a493068fc42093ff3') in 0.020760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Engine.fbx
+  artifactKey: Guid(ce1bc9a05848e50458c5639b3727fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpaceCombatKit/SpaceCombat/Demos/Content/Vehicles/Battleship/Battleship_Engine.fbx using Guid(ce1bc9a05848e50458c5639b3727fd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c857ef71177b630978071530a0f148c3') in 0.020293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
